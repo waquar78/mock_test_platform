@@ -1,0 +1,18 @@
+{
+  "watch": [
+    "index.js",
+    "config",
+    "controllers",
+    "models",
+    "routes",
+    "utils",
+    ".env"
+  ],
+  "ext": "js,json,env",
+  "ignore": [
+    "node_modules"
+  ],
+  "exec": "node"
+}
+
+

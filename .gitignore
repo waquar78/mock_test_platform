@@ -1,0 +1,12 @@
+
+# Ignore node_modules folder in both frontend and backend
+client/node_modules/
+server/node_modules/
+
+# Ignore .env files in both frontend and backend
+client/.env
+server/.env
+
+# Optional: Ignore other files like logs or OS specific files
+.DS_Store
+*.log
