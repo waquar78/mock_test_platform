@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useLoginUserMutation } from "../fetures/auth/authApi";
+import { useLoginUserMutation } from "../features/auth/authApi";
 import toast from "react-hot-toast";
 
 const Login = () => {

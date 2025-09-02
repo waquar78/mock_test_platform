@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import authReducer from "../fetures/auth/authSlice"; 
-import { AuthApi } from "../fetures/auth/authApi";
-import { questionApi } from "../fetures/question/questionApi"; 
-import { DashboardApi } from "../fetures/dashboard/DashboardApi"; 
+import authReducer from "../features/auth/authSlice"; 
+import { AuthApi } from "../features/auth/authApi";
+import { questionApi } from "../features/question/questionApi"; 
+import { DashboardApi } from "../features/dashboard/dashboardApi";
 
 const store = configureStore({
   reducer: {

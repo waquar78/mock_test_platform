@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useGetUserProfileQuery, useLogoutUserMutation } from '../fetures/auth/authApi';
+import { useGetUserProfileQuery, useLogoutUserMutation } from '../features/auth/authApi';
 import toast, { Toaster } from 'react-hot-toast';
 
 const Dashboard = () => {

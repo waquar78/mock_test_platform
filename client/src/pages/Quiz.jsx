@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import { useGetQuestionsQuery, useSubmitQuizMutation } from "../fetures/question/questionApi";
+import { useGetQuestionsQuery, useSubmitQuizMutation } from "../features/question/questionApi";
 import { formatTime } from "../utils/helper";
 
 const Quiz = () => {
