@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useRegisterUserMutation } from "../fetures/auth/authApi";
+import { useRegisterUserMutation } from "../features/auth/authApi";
 import toast from "react-hot-toast"; // ✅ import toast
 
 const Register = () => {
